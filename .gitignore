@@ -1,3 +1,10 @@
 /.ipynb_checkpoints
 /Sample Data
 /venv
+.coverage
+.mypy_cache
+.pytest_cache
+.vscode
+htmlcov
+/out_csvs
+*.pyc
