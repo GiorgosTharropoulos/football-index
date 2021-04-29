@@ -8,3 +8,6 @@
 htmlcov
 /out_csvs
 *.pyc
+/concat_frames/*.xlsx
+/concat_frames/frames
+/concat_frames/modified_frames

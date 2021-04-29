@@ -21,6 +21,7 @@ class Column:
                  is_percentage: bool = False,
                  should_convert: bool = True,
                  is_calculated: bool = False,
+                 should_be_per_mins: bool = True,
                  corresponding_column: Optional[Column] = None) -> None:
         self.original_name = original_name
         self.target_name = target_name
@@ -31,6 +32,7 @@ class Column:
         self.is_percentage = is_percentage
         self.should_convert = should_convert
         self.is_calculated = is_calculated
+        self.should_be_per_mins = should_be_per_mins
         self.corresponding_column = corresponding_column
 
     @property
