@@ -1,5 +1,5 @@
 from file_handler.directory import Directory
-from frame_calculations.frame_factory import FrameFactory
+from frame_repository.frame_factory import FrameFactory
 
 raw_folder = '../april_2021/APR 21/'
 final_folder = '../april_2021/final_154/'

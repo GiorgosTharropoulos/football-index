@@ -2,10 +2,10 @@ import os
 
 from file_handler.file import File
 
-from frame_calculations.frame import Frame
-from frame_calculations.load_strategy.csv_strategy import CsvStrategy
-from frame_calculations.load_strategy.excel_strategy import ExcelStrategy
-from frame_calculations.load_strategy.json_strategy import JsonStrategy
+from frame_repository.frame import Frame
+from frame_repository.load_strategy.csv_strategy import CsvStrategy
+from frame_repository.load_strategy.excel_strategy import ExcelStrategy
+from frame_repository.load_strategy.json_strategy import JsonStrategy
 
 
 class FrameFactory():
