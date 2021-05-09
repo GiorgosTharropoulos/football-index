@@ -10,6 +10,5 @@ final_directory = Directory(final_folder)
 if __name__ == '__main__':
     if raw_directory.are_files_matching(final_directory):
         for file in raw_directory[0:1]:
-            df = FrameFactory.create_frame(
-                directory=raw_directory, file=file).df
+            df = FrameFactory.create_frame(file.path).df
             print(df.head())

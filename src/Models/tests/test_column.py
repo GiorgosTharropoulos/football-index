@@ -1,5 +1,5 @@
 # noqa: F841
-import pytest
+import pytest  # type: ignore
 
 from ..column import Column, DataTypes
 

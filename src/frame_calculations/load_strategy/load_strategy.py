@@ -1,10 +1,8 @@
 from abc import ABC, abstractmethod
-
-from file_handler.file import File
-from file_handler.directory import Directory
+from os import PathLike
 
 
 class LoadStrategy(ABC):
     @abstractmethod
-    def get_data(self, directory: Directory, file: File):
+    def get_data(self, path: PathLike):
         pass
