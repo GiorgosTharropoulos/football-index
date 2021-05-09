@@ -4,7 +4,7 @@ import os
 
 raw_folder = '../april_2021/APR 21/'
 final_folder = '../april_2021/final_154/'
-raw_directory = Directory(os.path.abspath(raw_folder))
+raw_directory = Directory(raw_folder)
 final_directory = Directory(final_folder)
 
 
