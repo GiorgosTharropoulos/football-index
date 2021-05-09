@@ -19,7 +19,7 @@ class Directory():
         return True
 
     def __repr__(self) -> str:
-        return str(self.path)
+        return f'{self.path}'
 
     def __iter__(self) -> Generator:
         for file in self.files:

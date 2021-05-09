@@ -28,5 +28,5 @@ class File():
             return NotImplemented
         return self.path == other.path
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f'{self.path}'
